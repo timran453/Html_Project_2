@@ -1,0 +1,211 @@
+
+/* =========================  Media width(770-990)  ========================= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    /* ===============   Nav area  ===============  */
+    
+    .navigation .navItem{
+        float: left;
+    }
+    .navH1{
+        float: left;
+    }
+
+/* ===============   End of Nav area ===============   */
+
+
+    /* ===============   Mission area ===============   */
+
+    .missionImg{
+        padding-top: 120px;
+        transform: scale(1.5);
+        
+    }
+
+    /* ===============  End of Mission area ===============  */
+
+
+    /* ===============  Gallery area ===============  */
+
+    .galleryImage .items{
+        width: 33%;
+    }
+
+    /* ===============  End of Gallery area ===============  */
+
+    /* ===============  Customer area ===============  */
+
+    .customerImg{
+        width: 60%;
+    }
+    /* ===============  End of Customer area ===============  */
+
+
+
+
+
+    /* ===============  Contact area ===============  */
+
+    .contactElement{
+        transform: translateX(-50px);
+    }
+
+    .allContentElement{
+        transform: translateX(10px);
+    }
+    /* ===============  End of Contact area ===============  */
+
+
+}
+
+/* =========================  End of Media width(770-990)  ========================= */
+
+
+/* =========================  Media width(577-767)  ========================= */
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+
+    /* ===============   Mission area ===============   */
+    .missionImg{
+        margin-top: 70px;
+        transform: scale(1.3);
+        
+    }
+    .weDo{
+        margin-top: -70px;
+        text-align: center !important;
+    }
+    /* ===============  End of Mission area ===============  */
+
+    /* ===============  Gallery area ===============  */
+
+    .galleryImage .items{
+        width: 33%;
+    }
+
+    /* ===============  End of Gallery area ===============  */
+
+
+    /* ===============  Contact area ===============  */
+    .customerImg{
+        width: 75%;
+    }
+
+    /* ===============  End of Contact area ===============  */
+
+}
+
+/* =========================  End of Media width(577-767)  ========================= */
+
+
+/* =========================  Media width(350-575)  ========================= */
+
+@media (min-width: 350px) and (max-width: 576px) {
+
+    /* ===============   Mission area ===============   */
+    .missionImg{
+        margin-top: 70px;  
+    }
+    .weDo{
+        margin-top: -80px;
+        text-align: center !important;
+    }
+
+    /* ===============  End of Mission area ===============  */
+
+    /* ===============  Gallery area ===============  */
+
+    .galleryImage .items{
+        width: 50%;
+    }
+    /* ===============  End of Gallery area ===============  */
+
+    /* ===============  Contact area ===============  */
+    .customerImg{
+        width: 85%;
+        border: none;
+    }
+
+    /* ===============  End of Contact area ===============  */
+
+    /* ===============  Contact area ===============  */
+
+    .contactElement{
+    transform: none;
+    }
+
+    .allContentElement{
+        transform: none;
+        margin-left: -70px;
+    }
+/* ===============  End of Contact area ===============  */
+}
+
+/* =========================  End of Media width(350-575)  ========================= */
+
+
+/* =========================  Media width(0-350)  ========================= */
+
+@media  (max-width: 350px){
+
+/* ===============   Body area ===============   */
+
+    body{
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        word-break: break-all;
+    }
+
+    /* ===============   End of Body area ===============   */
+        
+        
+    /* ===============   Mission area ===============   */
+    .missionImg{
+        margin-top: 70px;
+        
+    }
+    .weDo{
+        margin-top: -80px;
+        text-align: center !important;
+    }
+
+    /* ===============  End of Mission area ===============  */
+
+    /* ===============  Gallery area ===============  */
+
+    .galleryImage .items{
+        width: 70%;
+    }
+
+    /* ===============  End of Gallery area ===============  */
+
+    /* ===============  Contact area ===============  */
+    .customerImg{
+        width: 90%;
+        border: none;
+    }
+    /* ===============  End of Contact area ===============  */
+
+    /* ===============  Contact area ===============  */
+
+    .contactElement{
+        transform: none;
+    }
+
+    .allContentElement{
+        transform: none;
+        transform: scale(.8);
+        margin-left: -120px;
+    }
+    /* ===============  End of Contact area ===============  */
+}
+
+/* ===========================  End of Media width(0-350)  =========================== */
+
+
+
+
